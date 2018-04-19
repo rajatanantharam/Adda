@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04019D0D1FDD7A3B003DC2BD /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04019D0C1FDD7A3B003DC2BD /* Contact.swift */; };
+		04019D0F1FDE8A88003DC2BD /* UsersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04019D0E1FDE8A88003DC2BD /* UsersResponse.swift */; };
+		04019D111FDEB439003DC2BD /* MeetingRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04019D101FDEB439003DC2BD /* MeetingRequest.swift */; };
+		04019D181FDEB757003DC2BD /* TimeConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04019D171FDEB757003DC2BD /* TimeConstraint.swift */; };
+		04019D201FDEBAC4003DC2BD /* Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04019D1F1FDEBAC4003DC2BD /* Start.swift */; };
+		04019D221FDEBB0F003DC2BD /* End.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04019D211FDEBB0F003DC2BD /* End.swift */; };
+		0419AC6A1FBCD7EC006B043F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0419AC691FBCD7EC006B043F /* AppDelegate.swift */; };
+		0419AC6C1FBCD7EC006B043F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0419AC6B1FBCD7EC006B043F /* ViewController.swift */; };
+		0419AC6F1FBCD7EC006B043F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0419AC6D1FBCD7EC006B043F /* Main.storyboard */; };
+		0419AC711FBCD7EC006B043F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0419AC701FBCD7EC006B043F /* Assets.xcassets */; };
+		0419AC741FBCD7EC006B043F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0419AC721FBCD7EC006B043F /* LaunchScreen.storyboard */; };
+		043346BC1FF8342C001A4470 /* RoomMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043346BB1FF8342C001A4470 /* RoomMapper.swift */; };
+		043346C31FFA6683001A4470 /* MeetingRequestMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043346C21FFA6683001A4470 /* MeetingRequestMapper.swift */; };
+		043346C51FFA685A001A4470 /* TimeSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043346C41FFA685A001A4470 /* TimeSlot.swift */; };
+		04F947D71FBCDB7C004325D4 /* OutlookService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F947D61FBCDB7C004325D4 /* OutlookService.swift */; };
+		80BC64CE8B5445A736304676 /* Pods_RoomPlanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14083C72532C6168973FC066 /* Pods_RoomPlanner.framework */; };
+		A0E4528635FADB4176C5A51C /* Pods_RoomPlannerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A53EEDAB5571793AF8FFF04D /* Pods_RoomPlannerTests.framework */; };
+		A34E8DDD30431FA6FE341BE6 /* Pods_RoomPlannerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0093501928A1FB59F92C15A4 /* Pods_RoomPlannerUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0419AC7B1FBCD7EC006B043F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0419AC5E1FBCD7EC006B043F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0419AC651FBCD7EC006B043F;
+			remoteInfo = RoomPlanner;
+		};
+		0419AC861FBCD7EC006B043F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0419AC5E1FBCD7EC006B043F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0419AC651FBCD7EC006B043F;
+			remoteInfo = RoomPlanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0093501928A1FB59F92C15A4 /* Pods_RoomPlannerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoomPlannerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04019D0C1FDD7A3B003DC2BD /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		04019D0E1FDE8A88003DC2BD /* UsersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersResponse.swift; sourceTree = "<group>"; };
+		04019D101FDEB439003DC2BD /* MeetingRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingRequest.swift; sourceTree = "<group>"; };
+		04019D171FDEB757003DC2BD /* TimeConstraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeConstraint.swift; sourceTree = "<group>"; };
+		04019D1F1FDEBAC4003DC2BD /* Start.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Start.swift; sourceTree = "<group>"; };
+		04019D211FDEBB0F003DC2BD /* End.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = End.swift; sourceTree = "<group>"; };
+		0419AC661FBCD7EC006B043F /* RoomPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoomPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0419AC691FBCD7EC006B043F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0419AC6B1FBCD7EC006B043F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0419AC6E1FBCD7EC006B043F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0419AC701FBCD7EC006B043F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0419AC731FBCD7EC006B043F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0419AC751FBCD7EC006B043F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0419AC7A1FBCD7EC006B043F /* RoomPlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoomPlannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0419AC851FBCD7EC006B043F /* RoomPlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoomPlannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		043346BB1FF8342C001A4470 /* RoomMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomMapper.swift; sourceTree = "<group>"; };
+		043346C21FFA6683001A4470 /* MeetingRequestMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingRequestMapper.swift; sourceTree = "<group>"; };
+		043346C41FFA685A001A4470 /* TimeSlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSlot.swift; sourceTree = "<group>"; };
+		04F947D61FBCDB7C004325D4 /* OutlookService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlookService.swift; sourceTree = "<group>"; };
+		14083C72532C6168973FC066 /* Pods_RoomPlanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoomPlanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C164228975D1BEAB9D05710 /* Pods-RoomPlannerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomPlannerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RoomPlannerUITests/Pods-RoomPlannerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5525E73DB91D291D0D21A2D5 /* Pods-RoomPlannerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomPlannerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RoomPlannerTests/Pods-RoomPlannerTests.release.xcconfig"; sourceTree = "<group>"; };
+		617A19E9A6E897EDF27C2610 /* Pods-RoomPlanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomPlanner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RoomPlanner/Pods-RoomPlanner.debug.xcconfig"; sourceTree = "<group>"; };
+		947703EE247EB2273FE7B656 /* Pods-RoomPlanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomPlanner.release.xcconfig"; path = "Pods/Target Support Files/Pods-RoomPlanner/Pods-RoomPlanner.release.xcconfig"; sourceTree = "<group>"; };
+		A53EEDAB5571793AF8FFF04D /* Pods_RoomPlannerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoomPlannerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4DCD868CAE18973C50F5AC1 /* Pods-RoomPlannerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomPlannerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RoomPlannerTests/Pods-RoomPlannerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FFDC75478FEFB3018083968A /* Pods-RoomPlannerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomPlannerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RoomPlannerUITests/Pods-RoomPlannerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0419AC631FBCD7EC006B043F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80BC64CE8B5445A736304676 /* Pods_RoomPlanner.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0419AC771FBCD7EC006B043F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E4528635FADB4176C5A51C /* Pods_RoomPlannerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0419AC821FBCD7EC006B043F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A34E8DDD30431FA6FE341BE6 /* Pods_RoomPlannerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04019D0B1FDD7A25003DC2BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04019D231FDEBB53003DC2BD /* Contacts */,
+				04019D121FDEB709003DC2BD /* MeetingRequest */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04019D121FDEB709003DC2BD /* MeetingRequest */ = {
+			isa = PBXGroup;
+			children = (
+				04019D101FDEB439003DC2BD /* MeetingRequest.swift */,
+				04019D171FDEB757003DC2BD /* TimeConstraint.swift */,
+				04019D1F1FDEBAC4003DC2BD /* Start.swift */,
+				04019D211FDEBB0F003DC2BD /* End.swift */,
+				043346C41FFA685A001A4470 /* TimeSlot.swift */,
+			);
+			path = MeetingRequest;
+			sourceTree = "<group>";
+		};
+		04019D231FDEBB53003DC2BD /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				04019D0C1FDD7A3B003DC2BD /* Contact.swift */,
+				04019D0E1FDE8A88003DC2BD /* UsersResponse.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		0419AC5D1FBCD7EC006B043F = {
+			isa = PBXGroup;
+			children = (
+				0419AC681FBCD7EC006B043F /* RoomPlanner */,
+				0419AC671FBCD7EC006B043F /* Products */,
+				1D88191BD82B1DE8181120F5 /* Pods */,
+				4EB6921D0DE27F094588291B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0419AC671FBCD7EC006B043F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0419AC661FBCD7EC006B043F /* RoomPlanner.app */,
+				0419AC7A1FBCD7EC006B043F /* RoomPlannerTests.xctest */,
+				0419AC851FBCD7EC006B043F /* RoomPlannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0419AC681FBCD7EC006B043F /* RoomPlanner */ = {
+			isa = PBXGroup;
+			children = (
+				043346BA1FF8341A001A4470 /* Mapper */,
+				04019D0B1FDD7A25003DC2BD /* Model */,
+				045347E81FBDA12900F53B20 /* Views */,
+				04F947D51FBCDB64004325D4 /* API */,
+				0419AC691FBCD7EC006B043F /* AppDelegate.swift */,
+				0419AC6D1FBCD7EC006B043F /* Main.storyboard */,
+				0419AC701FBCD7EC006B043F /* Assets.xcassets */,
+				0419AC721FBCD7EC006B043F /* LaunchScreen.storyboard */,
+				0419AC751FBCD7EC006B043F /* Info.plist */,
+			);
+			path = RoomPlanner;
+			sourceTree = "<group>";
+		};
+		043346BA1FF8341A001A4470 /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				043346BB1FF8342C001A4470 /* RoomMapper.swift */,
+				043346C21FFA6683001A4470 /* MeetingRequestMapper.swift */,
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
+		045347E81FBDA12900F53B20 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0419AC6B1FBCD7EC006B043F /* ViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04F947D51FBCDB64004325D4 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				04F947D61FBCDB7C004325D4 /* OutlookService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		1D88191BD82B1DE8181120F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				617A19E9A6E897EDF27C2610 /* Pods-RoomPlanner.debug.xcconfig */,
+				947703EE247EB2273FE7B656 /* Pods-RoomPlanner.release.xcconfig */,
+				F4DCD868CAE18973C50F5AC1 /* Pods-RoomPlannerTests.debug.xcconfig */,
+				5525E73DB91D291D0D21A2D5 /* Pods-RoomPlannerTests.release.xcconfig */,
+				FFDC75478FEFB3018083968A /* Pods-RoomPlannerUITests.debug.xcconfig */,
+				2C164228975D1BEAB9D05710 /* Pods-RoomPlannerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4EB6921D0DE27F094588291B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14083C72532C6168973FC066 /* Pods_RoomPlanner.framework */,
+				A53EEDAB5571793AF8FFF04D /* Pods_RoomPlannerTests.framework */,
+				0093501928A1FB59F92C15A4 /* Pods_RoomPlannerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0419AC651FBCD7EC006B043F /* RoomPlanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0419AC8E1FBCD7EC006B043F /* Build configuration list for PBXNativeTarget "RoomPlanner" */;
+			buildPhases = (
+				DE4E9AD05A082207C817264D /* [CP] Check Pods Manifest.lock */,
+				0419AC621FBCD7EC006B043F /* Sources */,
+				0419AC631FBCD7EC006B043F /* Frameworks */,
+				0419AC641FBCD7EC006B043F /* Resources */,
+				68395A0051DCF818ABAD4ECF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoomPlanner;
+			productName = RoomPlanner;
+			productReference = 0419AC661FBCD7EC006B043F /* RoomPlanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0419AC791FBCD7EC006B043F /* RoomPlannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0419AC911FBCD7EC006B043F /* Build configuration list for PBXNativeTarget "RoomPlannerTests" */;
+			buildPhases = (
+				A8BDE9336567C92665E13009 /* [CP] Check Pods Manifest.lock */,
+				0419AC761FBCD7EC006B043F /* Sources */,
+				0419AC771FBCD7EC006B043F /* Frameworks */,
+				0419AC781FBCD7EC006B043F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0419AC7C1FBCD7EC006B043F /* PBXTargetDependency */,
+			);
+			name = RoomPlannerTests;
+			productName = RoomPlannerTests;
+			productReference = 0419AC7A1FBCD7EC006B043F /* RoomPlannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0419AC841FBCD7EC006B043F /* RoomPlannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0419AC941FBCD7EC006B043F /* Build configuration list for PBXNativeTarget "RoomPlannerUITests" */;
+			buildPhases = (
+				935A34A4860C81B9FCE06630 /* [CP] Check Pods Manifest.lock */,
+				0419AC811FBCD7EC006B043F /* Sources */,
+				0419AC821FBCD7EC006B043F /* Frameworks */,
+				0419AC831FBCD7EC006B043F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0419AC871FBCD7EC006B043F /* PBXTargetDependency */,
+			);
+			name = RoomPlannerUITests;
+			productName = RoomPlannerUITests;
+			productReference = 0419AC851FBCD7EC006B043F /* RoomPlannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0419AC5E1FBCD7EC006B043F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Rajat Anantharam";
+				TargetAttributes = {
+					0419AC651FBCD7EC006B043F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					0419AC791FBCD7EC006B043F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0419AC651FBCD7EC006B043F;
+					};
+					0419AC841FBCD7EC006B043F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0419AC651FBCD7EC006B043F;
+					};
+				};
+			};
+			buildConfigurationList = 0419AC611FBCD7EC006B043F /* Build configuration list for PBXProject "RoomPlanner" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0419AC5D1FBCD7EC006B043F;
+			productRefGroup = 0419AC671FBCD7EC006B043F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0419AC651FBCD7EC006B043F /* RoomPlanner */,
+				0419AC791FBCD7EC006B043F /* RoomPlannerTests */,
+				0419AC841FBCD7EC006B043F /* RoomPlannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0419AC641FBCD7EC006B043F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0419AC741FBCD7EC006B043F /* LaunchScreen.storyboard in Resources */,
+				0419AC711FBCD7EC006B043F /* Assets.xcassets in Resources */,
+				0419AC6F1FBCD7EC006B043F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0419AC781FBCD7EC006B043F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0419AC831FBCD7EC006B043F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68395A0051DCF818ABAD4ECF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RoomPlanner/Pods-RoomPlanner-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/p2.OAuth2/p2_OAuth2.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/p2_OAuth2.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoomPlanner/Pods-RoomPlanner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		935A34A4860C81B9FCE06630 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoomPlannerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8BDE9336567C92665E13009 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoomPlannerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE4E9AD05A082207C817264D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoomPlanner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0419AC621FBCD7EC006B043F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04019D221FDEBB0F003DC2BD /* End.swift in Sources */,
+				0419AC6C1FBCD7EC006B043F /* ViewController.swift in Sources */,
+				043346C31FFA6683001A4470 /* MeetingRequestMapper.swift in Sources */,
+				04019D181FDEB757003DC2BD /* TimeConstraint.swift in Sources */,
+				043346C51FFA685A001A4470 /* TimeSlot.swift in Sources */,
+				04019D201FDEBAC4003DC2BD /* Start.swift in Sources */,
+				04019D0D1FDD7A3B003DC2BD /* Contact.swift in Sources */,
+				04019D111FDEB439003DC2BD /* MeetingRequest.swift in Sources */,
+				0419AC6A1FBCD7EC006B043F /* AppDelegate.swift in Sources */,
+				043346BC1FF8342C001A4470 /* RoomMapper.swift in Sources */,
+				04F947D71FBCDB7C004325D4 /* OutlookService.swift in Sources */,
+				04019D0F1FDE8A88003DC2BD /* UsersResponse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0419AC761FBCD7EC006B043F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0419AC811FBCD7EC006B043F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0419AC7C1FBCD7EC006B043F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0419AC651FBCD7EC006B043F /* RoomPlanner */;
+			targetProxy = 0419AC7B1FBCD7EC006B043F /* PBXContainerItemProxy */;
+		};
+		0419AC871FBCD7EC006B043F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0419AC651FBCD7EC006B043F /* RoomPlanner */;
+			targetProxy = 0419AC861FBCD7EC006B043F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0419AC6D1FBCD7EC006B043F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0419AC6E1FBCD7EC006B043F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0419AC721FBCD7EC006B043F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0419AC731FBCD7EC006B043F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0419AC8C1FBCD7EC006B043F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0419AC8D1FBCD7EC006B043F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0419AC8F1FBCD7EC006B043F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 617A19E9A6E897EDF27C2610 /* Pods-RoomPlanner.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WTY98J75UQ;
+				INFOPLIST_FILE = RoomPlanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.r4j4t.getaroom.RoomPlanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0419AC901FBCD7EC006B043F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 947703EE247EB2273FE7B656 /* Pods-RoomPlanner.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WTY98J75UQ;
+				INFOPLIST_FILE = RoomPlanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.r4j4t.getaroom.RoomPlanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0419AC921FBCD7EC006B043F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4DCD868CAE18973C50F5AC1 /* Pods-RoomPlannerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WTY98J75UQ;
+				INFOPLIST_FILE = RoomPlannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.r4j4t.getaroom.RoomPlannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoomPlanner.app/RoomPlanner";
+			};
+			name = Debug;
+		};
+		0419AC931FBCD7EC006B043F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5525E73DB91D291D0D21A2D5 /* Pods-RoomPlannerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WTY98J75UQ;
+				INFOPLIST_FILE = RoomPlannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.r4j4t.getaroom.RoomPlannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoomPlanner.app/RoomPlanner";
+			};
+			name = Release;
+		};
+		0419AC951FBCD7EC006B043F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFDC75478FEFB3018083968A /* Pods-RoomPlannerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WTY98J75UQ;
+				INFOPLIST_FILE = RoomPlannerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.r4j4t.getaroom.RoomPlannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoomPlanner;
+			};
+			name = Debug;
+		};
+		0419AC961FBCD7EC006B043F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C164228975D1BEAB9D05710 /* Pods-RoomPlannerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WTY98J75UQ;
+				INFOPLIST_FILE = RoomPlannerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.r4j4t.getaroom.RoomPlannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoomPlanner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0419AC611FBCD7EC006B043F /* Build configuration list for PBXProject "RoomPlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0419AC8C1FBCD7EC006B043F /* Debug */,
+				0419AC8D1FBCD7EC006B043F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0419AC8E1FBCD7EC006B043F /* Build configuration list for PBXNativeTarget "RoomPlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0419AC8F1FBCD7EC006B043F /* Debug */,
+				0419AC901FBCD7EC006B043F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0419AC911FBCD7EC006B043F /* Build configuration list for PBXNativeTarget "RoomPlannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0419AC921FBCD7EC006B043F /* Debug */,
+				0419AC931FBCD7EC006B043F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0419AC941FBCD7EC006B043F /* Build configuration list for PBXNativeTarget "RoomPlannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0419AC951FBCD7EC006B043F /* Debug */,
+				0419AC961FBCD7EC006B043F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0419AC5E1FBCD7EC006B043F /* Project object */;
+}
