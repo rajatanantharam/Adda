@@ -9,3 +9,12 @@ This app assumes that you work in an organisation that uses outlook 365.
 4. Under Platforms, select Add platform.Select Native platform.
 6. Copy the Client Id to the clipboard. You'll need to enter this value into the sample app.The app id is a unique identifier for your app.
 7. Select Save.
+
+# Configuration
+
+Use the application client id & redirect URI from the app registration portal in OutlookService.swift. For the redirect URI, the app name refers to the name of your app from the app registration portal.
+
+~~~~
+"client_id" : "{YOUR_APP_CLIENT_ID}"
+"redirect_uris": ["{YOUR_APP_NAME}://oauth2/callback"]
+~~~~
